@@ -1,0 +1,45 @@
+/* Remove the provided CSS */
+
+/* Add Tailwind CSS classes */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Add Tailwind CSS classes */
+.App {
+  @apply text-center;
+}
+
+/* Add Tailwind CSS classes */
+.App-logo {
+  @apply h-40vmin;
+}
+
+/* Add Tailwind CSS classes */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    @apply animate-spin;
+  }
+}
+
+/* Add Tailwind CSS classes */
+.App-header {
+  @apply bg-blue-900 min-h-screen flex flex-col items-center justify-center text-white;
+}
+
+/* Add Tailwind CSS classes */
+.App-link {
+  @apply text-blue-500;
+}
+
+/* Tailwind CSS doesn't use @keyframes, so we'll leave this part unchanged */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
