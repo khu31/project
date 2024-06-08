@@ -1,5 +1,5 @@
 import React from 'react';
-import './com.css'; // Import the CSS file
+import './com.css'; 
 
 function Projects() {
   const projectList = [
@@ -15,7 +15,7 @@ function Projects() {
       liveLink: 'https://project-two-live-link.com',
       sourceCode: 'https://github.com/topics/ecommerce-website'
     },
-    // Add more projects as needed
+
   ];
 
   return (

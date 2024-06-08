@@ -1,12 +1,12 @@
 import React from 'react';
-import './com.css'; // Import the CSS file
+import './com.css'; 
 
 function About() {
   return (
     <div className="about container">
       <h1>About Me</h1>
-      <p>Hi,my name is Khushi.I am a passionate front-end developer currently 
-        pursuing my degree in information technology at A.D Patel institute of technology.</p>
+      <p>Hi,my name is Neha.I am a passionate front-end developer currently 
+        pursuing my degree in information technology.</p>
       <p>I invite you to explore my portfolio to learn more about my work and the technologies I enjoy using. 
       This website serves as a showcase of my skills, projects, and experiences in web development.
       </p>

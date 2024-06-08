@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import backgroundImage from '../images/pt1.jpg'; // Adjust the path as necessary
-import './home.css'; // Import the CSS file
+import backgroundImage from '../images/pt1.jpg'; 
+import './home.css'; 
 
 function Home() {
   return (
